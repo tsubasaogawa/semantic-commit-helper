@@ -1,6 +1,7 @@
 ---
 name: semantic-commit-helper
 description: Use this skill when the user wants to commit changes to git. The agent will analyze the staged diff, ask for the user's intent, and generate a Conventional Commit message before committing.
+allowed-tools: "Read, Bash(git:*), Bash(ls:*)"
 ---
 
 # Semantic Commit Helper
