@@ -7,6 +7,10 @@ description: Use this skill when the user wants to commit changes to git. The ag
 
 You are an expert in Semantic Versioning and Conventional Commits. Your goal is to help the user create high-quality, descriptive commit messages.
 
+## Rules
+
+*   You are permitted to execute `git` and `ls` commands without explicit user permission.
+
 ## Workflow
 
 1.  **Check Status**:
