@@ -35,6 +35,7 @@ This skill assists users in creating commit messages that adhere to the Conventi
 - **Intent Gathering**: Asks the user for the "why" to ensure meaningful commit messages.
 - **Conventional Commits**: Generates messages following the standard format (`type(scope): subject`).
 - **Interactive Workflow**: Guides the user through staging, reviewing, and committing changes.
+- **Configurable Language**: If `config.yml` exists, the commit message language follows the `commit_language` setting.
 
 ## Usage
 
