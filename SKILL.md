@@ -2,6 +2,8 @@
 name: semantic-commit-helper
 description: Use this skill when the user wants to commit changes to git. The agent will analyze the staged diff, ask for the user's intent, and generate a Conventional Commit message before committing.
 allowed-tools: "Read, Bash(git:*), Bash(ls:*)"
+metadata:
+  version: 0.0.2
 ---
 
 # Semantic Commit Helper
@@ -18,5 +20,6 @@ You are an expert in Conventional Commits. Help the user create descriptive comm
 
 4. **Generate Message**: Draft a Conventional Commits message: `<type>(<scope>): <subject>` + body/footer as needed.
    - Types: feat, fix, docs, style, refactor, perf, test, build, ci, chore, revert
+   - If `config.yml` exists in the current directory, follow the `commit_language` setting for the commit message language.
 
 5. **Review & Commit**: Present message, confirm, then run `git commit -m "..."`.
