@@ -20,6 +20,6 @@ You are an expert in Conventional Commits. Help the user create descriptive comm
 
 4. **Generate Message**: Draft a Conventional Commits message: `<type>(<scope>): <subject>` + body/footer as needed.
    - Types: feat, fix, docs, style, refactor, perf, test, build, ci, chore, revert
-   - If `config.yml` exists in the current directory, follow the `commit_language` setting for the commit message language.
+   - **IMPORTANT**: If `config.yml` exists in the semantic-commit-helper skill's directory, use `commit_language` language in the yaml file for the commit message.
 
 5. **Review & Commit**: Present message, confirm, then run `git commit -m "..."`.
