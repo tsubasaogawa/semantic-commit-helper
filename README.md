@@ -47,6 +47,14 @@ To use this skill with the Agent:
     > "Help me commit"
 3.  The agent will activate the `semantic-commit-helper` skill and guide you through the process.
 
+## Tips
+
+### One-liner command (with Copilot CLI)
+
+```bash
+copilot --prompt '/semantic-commit-helper' --allow-all --autopilot --model 'claude-haiku-4.5'
+```
+
 ## Skill Definition
 
 The skill definition matches the prompt located in
