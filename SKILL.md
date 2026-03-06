@@ -22,9 +22,5 @@ You are an expert in Conventional Commits. Help the user create descriptive comm
    - Types: feat, fix, docs, style, refactor, perf, test, build, ci, chore, revert
    - **IMPORTANT**: If `config.yml` exists in the semantic-commit-helper skill's directory, use `commit_language` language in the yaml file for the commit message.
 
-5. **Review & Commit**: Present message, confirm, then run `git commit -m "..."`.
-
-## Notes
-
-- Do NOT check the task is complete after the workflow.
+5. **Review & Commit**: Present message, confirm, then run `git commit -m "..."`. Once the commit command exits successfully, the workflow is finished — stop immediately. Do not run `git log`, `git status`, or any follow-up commands to verify.
 
