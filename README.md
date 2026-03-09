@@ -55,6 +55,12 @@ To use this skill with the Agent:
 copilot --prompt '/semantic-commit-helper' --allow-all --autopilot --model 'claude-haiku-4.5'
 ```
 
+Overwrite commit language setting in `config.yml`:
+
+```bash
+copilot --prompt '/semantic-commit-helper japanese' --allow-all --autopilot --model 'claude-haiku-4.5'
+```
+
 ## Skill Definition
 
 The skill definition matches the prompt located in
