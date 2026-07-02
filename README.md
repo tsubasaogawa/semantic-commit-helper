@@ -1,3 +1,5 @@
+Skill moves to https://github.com/tsubasaogawa/skills
+
 # Semantic Commit Helper Skill
 
 This repository contains the `semantic-commit-helper` skill for the AI Agent.
